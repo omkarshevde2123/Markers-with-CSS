@@ -1,0 +1,56 @@
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.container{
+    padding: 0px 0;
+    margin: 0 auto;
+    position: relative;
+
+    /* background-color: black; */
+}
+.marker{
+    background-color: red;
+    width: 800px;
+    height: 100px;
+    margin: 30px auto;
+}
+
+.cap{
+    width: 250px;
+    height: 100px;
+}
+
+.sleeve{
+    background-color: rgba(255, 255, 255,30%);
+    width: 450px;
+    height: 100px;
+    border-left: 20px double rgba(0, 0, 0, 75%);
+}
+
+
+.sleeve,.cap{
+    display: inline-block;
+}
+
+/* using rgb() */
+.red    {
+ 
+ background: linear-gradient(180deg,rgb(93, 35, 1),rgb(255,92,0),rgb(93, 35, 1) );
+ box-shadow: 10px 10px 15px 5px rgba(93, 35, 1,50%);
+}
+
+
+/* using the hex code */
+.green  {
+background: linear-gradient(180deg,#8f8f8f,#ffffff,#8f8f8f) ;
+box-shadow: 10px 10px 15px 5px #8f8f8fCC;
+}
+
+/* using hsl() */
+.blue{
+background:linear-gradient(180deg, hsl(135, 40%, 15%), hsl(137, 40%, 49%), hsl(135, 40%, 15%));
+box-shadow: 10px 10px 15px 5px hsla(135, 40%, 15%,50%);
+}
+
